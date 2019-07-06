@@ -1,11 +1,17 @@
 {
   "name": "customerbase",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "Simple GraphQL Server",
+  "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev:server": "nodemon server.js"
   },
   "author": "",
-  "license": "ISC"
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.17.1",
+    "express-graphql": "^0.8.0",
+    "graphql": "^14.4.2",
+    "nodemon": "^1.19.1"
+  }
 }
